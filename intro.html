@@ -1,0 +1,494 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>التخطيط السنوي | WKF Kata — 5-9 سنوات</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Amiri:wght@400;700&family=Tajawal:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+
+
+<div id="progress"><div id="progress-fill"></div></div>
+
+<div class="layout">
+  <nav class="toc">
+    <span class="brand">دفتر الموسم</span>
+    <span class="brand-sub">WKF KATA — التخطيط السنوي</span>
+    <ul>
+      <li><a href="#cover"><span class="dot"></span> الغلاف</a></li>
+      <li><a href="#vision"><span class="dot"></span> الرؤية</a></li>
+      <li><a href="#objectives"><span class="dot"></span> أهداف الموسم</a></li>
+      <li><a href="#macrocycle"><span class="dot"></span> تقسيم الموسم</a></li>
+      <li><a href="#phase1"><span class="dot"></span> المرحلة 1 — التأسيس</a></li>
+      <li><a href="#phase2"><span class="dot"></span> المرحلة 2 — تطوير المهارة</a></li>
+      <li><a href="#phase3"><span class="dot"></span> المرحلة 3 — الأداء</a></li>
+      <li><a href="#phase4"><span class="dot"></span> المرحلة 4 — ما قبل البطولة</a></li>
+      <li><a href="#phase5"><span class="dot"></span> المرحلة 5 — الاستشفاء</a></li>
+      <li><a href="#load"><span class="dot"></span> دورة الحمل</a></li>
+      <li><a href="#days"><span class="dot"></span> هدف كل يوم</a></li>
+      <li><a href="#testing"><span class="dot"></span> الاختبارات الدورية</a></li>
+      <li><a href="#kpis"><span class="dot"></span> مؤشرات الأداء</a></li>
+      <li><a href="#skills-table"><span class="dot"></span> جدول المهارات</a></li>
+      <li><a href="#philosophy"><span class="dot"></span> فلسفة الحصة</a></li>
+    </ul>
+  </nav>
+
+  <main>
+    <!-- COVER -->
+    <header class="cover" id="cover">
+      <div class="beltstrip">
+        <span style="background:var(--belt1)"></span>
+        <span style="background:var(--belt2)"></span>
+        <span style="background:var(--belt3)"></span>
+        <span style="background:var(--belt4)"></span>
+        <span style="background:var(--belt5)"></span>
+      </div>
+      <span class="kicker">Annual Training Plan · ATP</span>
+      <h1>التخطيط السنوي لموسم كاتا كامل</h1>
+      <p class="lead">برنامج تدريبي متكامل للفئة العمرية 5–9 سنوات، مبني على فلسفة Learn Through Play وLTAD ومعايير WKF، على مدار 30 أسبوعًا.</p>
+      <div class="stat-grid">
+        <div class="stat"><b>5–9</b><span>الفئة العمرية</span></div>
+        <div class="stat"><b>حصتان</b><span>أسبوعيًا</span></div>
+        <div class="stat"><b>90</b><span>دقيقة / حصة</span></div>
+        <div class="stat"><b>30</b><span>أسبوع الموسم</span></div>
+        <div class="stat"><b>60</b><span>إجمالي الحصص</span></div>
+        <div class="stat"><b>WKF Kata</b><span>نوع النشاط</span></div>
+      </div>
+    </header>
+
+    <!-- VISION -->
+    <section id="vision">
+      <span class="eyebrow">Vision</span>
+      <h2 class="title">الرؤية</h2>
+      <p class="section-sub">بنهاية الموسم، يجب أن يكون اللاعب قادرًا على تحقيق نمو متكامل في ثلاثة محاور: الفني، البدني، والنفسي.</p>
+      <div class="grid3">
+        <div class="pillar tech">
+          <h3>فنيًا</h3>
+          <ul>
+            <li>تنفيذ الكاتا الأساسية بجودة عالية</li>
+            <li>تحسين جودة الوقفات (Dachi)</li>
+            <li>تحسين الانتقالات (Transitions)</li>
+            <li>تحسين الإيقاع (Rhythm)</li>
+            <li>تحسين الـ Kime</li>
+            <li>تحسين الـ Metsuke</li>
+            <li>تقليل الأخطاء الفنية</li>
+          </ul>
+        </div>
+        <div class="pillar phys">
+          <h3>بدنيًا</h3>
+          <ul>
+            <li>تحسين التوازن</li>
+            <li>تحسين الرشاقة</li>
+            <li>تحسين السرعة</li>
+            <li>تحسين التوافق العصبي العضلي</li>
+            <li>تحسين المرونة</li>
+            <li>تحسين القدرة على التحكم في الجسم</li>
+          </ul>
+        </div>
+        <div class="pillar psych">
+          <h3>نفسيًا</h3>
+          <ul>
+            <li>زيادة الثقة بالنفس</li>
+            <li>الالتزام بالتدريب</li>
+            <li>حب المنافسة</li>
+            <li>احترام قواعد البطولة</li>
+            <li>تنمية التركيز والانضباط</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- OBJECTIVES -->
+    <section class="alt" id="objectives">
+      <span class="eyebrow">Season Objectives</span>
+      <h2 class="title">أهداف الموسم الرئيسية</h2>
+
+      <div class="goal-block">
+        <span class="goal-num">01</span>
+        <div>
+          <h4>الحركة (Movement Quality)</h4>
+          <div class="chip-row">
+            <span class="chip">الجري الصحيح</span><span class="chip">القفز</span><span class="chip">الهبوط</span>
+            <span class="chip">تغيير الاتجاه</span><span class="chip">التوازن</span><span class="chip">التحكم في الجسم</span>
+          </div>
+        </div>
+      </div>
+      <div class="goal-block">
+        <span class="goal-num">02</span>
+        <div>
+          <h4>أساسيات الكاراتيه</h4>
+          <div class="chip-row">
+            <span class="chip">الوقفات</span><span class="chip">اللكمات</span><span class="chip">الصدات</span>
+            <span class="chip">الركلات</span><span class="chip">الدوران</span><span class="chip">الاتجاهات</span>
+          </div>
+        </div>
+      </div>
+      <div class="goal-block">
+        <span class="goal-num">03</span>
+        <div>
+          <h4>الكاتا</h4>
+          <div class="chip-row">
+            <span class="chip">حفظ الكاتا</span><span class="chip">تحسين الأداء</span>
+            <span class="chip">تحسين السرعة</span><span class="chip">تحسين القوة</span><span class="chip">تحسين الإيقاع</span>
+          </div>
+        </div>
+      </div>
+      <div class="goal-block">
+        <span class="goal-num">04</span>
+        <div>
+          <h4>Athletic Development</h4>
+          <div class="chip-row">
+            <span class="chip">القوة العامة</span><span class="chip">السرعة</span><span class="chip">الرشاقة</span>
+            <span class="chip">المرونة</span><span class="chip">التوازن</span><span class="chip">Coordination</span>
+          </div>
+        </div>
+      </div>
+      <div class="goal-block">
+        <span class="goal-num">05</span>
+        <div>
+          <h4>المنافسة</h4>
+          <div class="chip-row">
+            <span class="chip">دخول الملعب</span><span class="chip">التحية</span><span class="chip">الثقة</span>
+            <span class="chip">إدارة التوتر</span><span class="chip">الأداء أمام الحكام</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- MACROCYCLE -->
+    <section id="macrocycle">
+      <span class="eyebrow">Macrocycle</span>
+      <h2 class="title">تقسيم الموسم</h2>
+      <p class="section-sub">يتدرج الموسم عبر خمس مراحل، بنفس منطق تدرج الأحزمة في الكاراتيه — من التأسيس الأبيض إلى نضج المرحلة الختامية.</p>
+
+      <div class="tblwrap">
+        <table>
+          <thead><tr><th>المرحلة</th><th>الأسابيع</th><th>الهدف</th></tr></thead>
+          <tbody>
+            <tr><td>Phase 1</td><td>1–8</td><td>Foundation</td></tr>
+            <tr><td>Phase 2</td><td>9–16</td><td>Skill Development</td></tr>
+            <tr><td>Phase 3</td><td>17–24</td><td>Performance Development</td></tr>
+            <tr><td>Phase 4</td><td>25–28</td><td>Competition Preparation</td></tr>
+            <tr><td>Phase 5</td><td>29–30</td><td>Transition</td></tr>
+          </tbody>
+        </table>
+      </div>
+
+      <div class="belt-timeline">
+        <div class="belt-row">
+          <div class="belt-label" style="background:var(--belt1); color:var(--belt1-ink);">حزام أبيض<small>Phase 1</small></div>
+          <div class="belt-body"><span class="weeks">أسابيع 1–8</span>بناء الأساس الفني والبدني والاستمتاع بالتدريب.</div>
+        </div>
+        <div class="belt-row">
+          <div class="belt-label" style="background:var(--belt2); color:var(--belt2-ink);">حزام أصفر<small>Phase 2</small></div>
+          <div class="belt-body"><span class="weeks">أسابيع 9–16</span>تطوير المهارات الفنية: الوقفات، الانتقالات، السرعة والتوقيت.</div>
+        </div>
+        <div class="belt-row">
+          <div class="belt-label" style="background:var(--belt3); color:var(--belt3-ink);">حزام برتقالي<small>Phase 3</small></div>
+          <div class="belt-body"><span class="weeks">أسابيع 17–24</span>تحويل المهارة إلى أداء تنافسي تحت الضغط.</div>
+        </div>
+        <div class="belt-row">
+          <div class="belt-label" style="background:var(--belt4); color:var(--belt4-ink);">حزام أخضر<small>Phase 4</small></div>
+          <div class="belt-body"><span class="weeks">أسابيع 25–28</span>الوصول لأفضل مستوى قبل البطولة وتقليل الأخطاء.</div>
+        </div>
+        <div class="belt-row">
+          <div class="belt-label" style="background:var(--belt5); color:var(--belt5-ink);">حزام بني<small>Phase 5</small></div>
+          <div class="belt-body"><span class="weeks">أسابيع 29–30</span>الاستشفاء والتقييم الشامل للموسم.</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PHASE 1 -->
+    <section class="alt" id="phase1">
+      <div class="phase-head">
+        <div class="phase-badge" style="background:var(--belt1); color:var(--belt1-ink);">1</div>
+        <div>
+          <h2 class="title" style="margin-bottom:2px;">Foundation</h2>
+          <span class="phase-weeks">الأسابيع 1–8 · بناء الأساس الفني والبدني</span>
+        </div>
+      </div>
+      <ul class="priority-list">
+        <li>الحركة الأساسية</li><li>التوازن</li><li>المرونة</li><li>Kihon</li>
+        <li>أساسيات الكاتا</li><li>الاستمتاع بالتدريب</li>
+      </ul>
+
+      <div class="week-sessions">
+        <a class="week-link-card" href="weeks/week01/session01.html">
+          <div class="wl-text">
+            <b>الأسبوع 1 — الحصة الأولى (الإثنين)</b>
+            <span>Building the Foundation · خطة الحصة كاملة بالتوقيت والتمارين وواجب منزلي</span>
+          </div>
+          <span class="arrow">◂</span>
+        </a>
+        <a class="week-link-card" href="weeks/week01/session02.html">
+          <div class="wl-text">
+            <b>الأسبوع 1 — الحصة الثانية (الجمعة)</b>
+            <span>Learn → Apply → Enjoy · تثبيت وتطبيق ما تم تعلمه + بطاقة تقييم نهاية الأسبوع</span>
+          </div>
+          <span class="arrow">◂</span>
+        </a>
+      </div>
+
+      <div class="week-group-label">الأسبوع 2</div>
+      <div class="week-sessions">
+        <a class="week-link-card" href="weeks/week02/session01.html">
+          <div class="wl-text">
+            <b>الأسبوع 2 — الحصة الأولى (الإثنين)</b>
+            <span>Strong Foundation – Better Balance · تعليم Mae Geri + التوازن الديناميكي</span>
+          </div>
+          <span class="arrow">◂</span>
+        </a>
+        <a class="week-link-card" href="weeks/week02/session02.html">
+          <div class="wl-text">
+            <b>الأسبوع 2 — الحصة الثانية (الجمعة)</b>
+            <span>Move Better – Perform Better · Kizami Zuki + تقييم نهاية الأسبوع</span>
+          </div>
+          <span class="arrow">◂</span>
+        </a>
+      </div>
+
+      <div class="ratio-bars">
+        <div class="ratio-row"><span>Games</span><div class="ratio-track"><div class="ratio-fill" style="width:20%; background:var(--belt1); border:1px solid var(--line);"></div></div><span class="ratio-pct">20%</span></div>
+        <div class="ratio-row"><span>Athletic Development</span><div class="ratio-track"><div class="ratio-fill" style="width:20%; background:var(--mat-green);"></div></div><span class="ratio-pct">20%</span></div>
+        <div class="ratio-row"><span>Agility</span><div class="ratio-track"><div class="ratio-fill" style="width:10%; background:var(--gold);"></div></div><span class="ratio-pct">10%</span></div>
+        <div class="ratio-row"><span>Coordination</span><div class="ratio-track"><div class="ratio-fill" style="width:10%; background:var(--belt-red);"></div></div><span class="ratio-pct">10%</span></div>
+        <div class="ratio-row"><span>Kihon</span><div class="ratio-track"><div class="ratio-fill" style="width:20%; background:var(--ink);"></div></div><span class="ratio-pct">20%</span></div>
+        <div class="ratio-row"><span>Kata</span><div class="ratio-track"><div class="ratio-fill" style="width:15%; background:var(--belt3);"></div></div><span class="ratio-pct">15%</span></div>
+        <div class="ratio-row"><span>Cool Down</span><div class="ratio-track"><div class="ratio-fill" style="width:5%; background:#9aa6b2;"></div></div><span class="ratio-pct">5%</span></div>
+      </div>
+    </section>
+
+    <!-- PHASE 2 -->
+    <section id="phase2">
+      <div class="phase-head">
+        <div class="phase-badge" style="background:var(--belt2); color:var(--belt2-ink);">2</div>
+        <div>
+          <h2 class="title" style="margin-bottom:2px;">Skill Development</h2>
+          <span class="phase-weeks">الأسابيع 9–16 · تطوير المهارات الفنية</span>
+        </div>
+      </div>
+      <ul class="priority-list">
+        <li>تحسين الوقفات</li><li>الانتقالات</li><li>السرعة</li><li>التوقيت</li>
+        <li>الإيقاع</li><li>التوازن أثناء الأداء</li>
+      </ul>
+      <div class="ratio-bars">
+        <div class="ratio-row"><span>Athletic Development</span><div class="ratio-track"><div class="ratio-fill" style="width:15%; background:var(--mat-green);"></div></div><span class="ratio-pct">15%</span></div>
+        <div class="ratio-row"><span>Agility</span><div class="ratio-track"><div class="ratio-fill" style="width:10%; background:var(--gold);"></div></div><span class="ratio-pct">10%</span></div>
+        <div class="ratio-row"><span>Kihon</span><div class="ratio-track"><div class="ratio-fill" style="width:20%; background:var(--ink);"></div></div><span class="ratio-pct">20%</span></div>
+        <div class="ratio-row"><span>Kata</span><div class="ratio-track"><div class="ratio-fill" style="width:40%; background:var(--belt3);"></div></div><span class="ratio-pct">40%</span></div>
+        <div class="ratio-row"><span>Competition Drills</span><div class="ratio-track"><div class="ratio-fill" style="width:10%; background:var(--belt-red);"></div></div><span class="ratio-pct">10%</span></div>
+        <div class="ratio-row"><span>Recovery</span><div class="ratio-track"><div class="ratio-fill" style="width:5%; background:#9aa6b2;"></div></div><span class="ratio-pct">5%</span></div>
+      </div>
+    </section>
+
+    <!-- PHASE 3 -->
+    <section class="alt" id="phase3">
+      <div class="phase-head">
+        <div class="phase-badge" style="background:var(--belt3); color:var(--belt3-ink);">3</div>
+        <div>
+          <h2 class="title" style="margin-bottom:2px;">Performance Development</h2>
+          <span class="phase-weeks">الأسابيع 17–24 · تحويل المهارة إلى أداء تنافسي</span>
+        </div>
+      </div>
+      <ul class="priority-list">
+        <li>سرعة الأداء</li><li>القوة الانفجارية المناسبة للأطفال</li><li>سرعة الانتقال</li>
+        <li>أداء الكاتا تحت ضغط</li><li>محاكاة البطولة</li>
+      </ul>
+      <div class="ratio-bars">
+        <div class="ratio-row"><span>Athletic Development</span><div class="ratio-track"><div class="ratio-fill" style="width:15%; background:var(--mat-green);"></div></div><span class="ratio-pct">15%</span></div>
+        <div class="ratio-row"><span>Speed</span><div class="ratio-track"><div class="ratio-fill" style="width:10%; background:var(--gold);"></div></div><span class="ratio-pct">10%</span></div>
+        <div class="ratio-row"><span>Power</span><div class="ratio-track"><div class="ratio-fill" style="width:10%; background:var(--belt-red);"></div></div><span class="ratio-pct">10%</span></div>
+        <div class="ratio-row"><span>Kata</span><div class="ratio-track"><div class="ratio-fill" style="width:45%; background:var(--belt3);"></div></div><span class="ratio-pct">45%</span></div>
+        <div class="ratio-row"><span>Competition</span><div class="ratio-track"><div class="ratio-fill" style="width:15%; background:var(--ink);"></div></div><span class="ratio-pct">15%</span></div>
+        <div class="ratio-row"><span>Recovery</span><div class="ratio-track"><div class="ratio-fill" style="width:5%; background:#9aa6b2;"></div></div><span class="ratio-pct">5%</span></div>
+      </div>
+    </section>
+
+    <!-- PHASE 4 -->
+    <section id="phase4">
+      <div class="phase-head">
+        <div class="phase-badge" style="background:var(--belt4); color:var(--belt4-ink);">4</div>
+        <div>
+          <h2 class="title" style="margin-bottom:2px;">Competition Preparation</h2>
+          <span class="phase-weeks">الأسابيع 25–28 · الوصول لأفضل مستوى قبل البطولة</span>
+        </div>
+      </div>
+      <ul class="priority-list">
+        <li>جودة الأداء</li><li>تقليل الأخطاء</li><li>الثقة</li>
+        <li>الدخول والخروج</li><li>إدارة التوتر</li><li>الأداء أمام الحكام</li>
+      </ul>
+      <div class="ratio-bars">
+        <div class="ratio-row"><span>Warm-up</span><div class="ratio-track"><div class="ratio-fill" style="width:10%; background:var(--gold);"></div></div><span class="ratio-pct">10%</span></div>
+        <div class="ratio-row"><span>Kata</span><div class="ratio-track"><div class="ratio-fill" style="width:60%; background:var(--belt3);"></div></div><span class="ratio-pct">60%</span></div>
+        <div class="ratio-row"><span>Competition Simulation</span><div class="ratio-track"><div class="ratio-fill" style="width:20%; background:var(--belt-red);"></div></div><span class="ratio-pct">20%</span></div>
+        <div class="ratio-row"><span>Recovery</span><div class="ratio-track"><div class="ratio-fill" style="width:10%; background:#9aa6b2;"></div></div><span class="ratio-pct">10%</span></div>
+      </div>
+    </section>
+
+    <!-- PHASE 5 -->
+    <section class="alt" id="phase5">
+      <div class="phase-head">
+        <div class="phase-badge" style="background:var(--belt5); color:var(--belt5-ink);">5</div>
+        <div>
+          <h2 class="title" style="margin-bottom:2px;">Transition</h2>
+          <span class="phase-weeks">الأسابيع 29–30 · الاستشفاء والتقييم</span>
+        </div>
+      </div>
+      <ul class="priority-list">
+        <li>ألعاب</li><li>مسابقات داخلية</li><li>تقييم الموسم</li>
+        <li>تصحيح الأخطاء</li><li>أنشطة ترفيهية</li>
+      </ul>
+    </section>
+
+    <!-- LOAD PROGRESSION -->
+    <section id="load">
+      <span class="eyebrow">Load Progression</span>
+      <h2 class="title">دورة الحمل</h2>
+      <p class="section-sub">نمط الحمل التدريبي المتكرر داخل كل مرحلة، مع أسبوع استشفاء (Deload) في نهايتها.</p>
+      <div class="load-chart">
+        <div class="load-bar"><span class="val">60%</span><div class="bar" style="height:60%;"></div><span class="wk">أسبوع 1</span></div>
+        <div class="load-bar"><span class="val">65%</span><div class="bar" style="height:65%;"></div><span class="wk">أسبوع 2</span></div>
+        <div class="load-bar"><span class="val">70%</span><div class="bar" style="height:70%;"></div><span class="wk">أسبوع 3</span></div>
+        <div class="load-bar"><span class="val">75%</span><div class="bar" style="height:75%;"></div><span class="wk">أسبوع 4</span></div>
+        <div class="load-bar"><span class="val">80%</span><div class="bar" style="height:80%;"></div><span class="wk">أسبوع 5</span></div>
+        <div class="load-bar"><span class="val">82%</span><div class="bar" style="height:82%;"></div><span class="wk">أسبوع 6</span></div>
+        <div class="load-bar"><span class="val">85%</span><div class="bar" style="height:85%;"></div><span class="wk">أسبوع 7</span></div>
+        <div class="load-bar deload"><span class="val">65%</span><div class="bar" style="height:65%;"></div><span class="wk">أسبوع 8</span></div>
+      </div>
+      <div class="legend">
+        <span><i style="background:linear-gradient(180deg, var(--belt-red), var(--gold));"></i> حمل تصاعدي</span>
+        <span><i style="background:var(--mat-green);"></i> أسبوع استشفاء (Deload)</span>
+      </div>
+      <p class="section-sub" style="margin-top:24px; margin-bottom:0;">ثم يتكرر نفس النمط في كل مرحلة، مع تعديل المحتوى التدريبي بما يتناسب مع أهدافها.</p>
+    </section>
+
+    <!-- DAYS -->
+    <section class="alt" id="days">
+      <span class="eyebrow">Weekly Rhythm</span>
+      <h2 class="title">هدف كل يوم تدريب</h2>
+      <div class="grid2">
+        <div class="day-card" data-tag="Monday">
+          <h3>الإثنين</h3>
+          <span class="en">Training Day · Learning Day</span>
+          <ul>
+            <li>تعلم مهارة جديدة</li>
+            <li>تصحيح الأخطاء</li>
+            <li>تطوير عنصر بدني محدد</li>
+          </ul>
+          <div class="intensity">شدة التدريب: متوسطة إلى مرتفعة حسب الأسبوع.</div>
+        </div>
+        <div class="day-card" data-tag="Friday">
+          <h3>الجمعة</h3>
+          <span class="en">Performance Day</span>
+          <ul>
+            <li>تطبيق ما تم تعلمه</li>
+            <li>أداء الكاتا كاملة</li>
+            <li>مسابقات وتحديات</li>
+            <li>تقييم سريع</li>
+          </ul>
+          <div class="intensity">شدة التدريب: متوسطة، مع زيادة الطابع التنافسي دون إرهاق.</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- TESTING -->
+    <section id="testing">
+      <span class="eyebrow">Periodic Testing</span>
+      <h2 class="title">الاختبارات الدورية</h2>
+      <div class="grid2">
+        <div class="kpi-group">
+          <h4>بدنيًا — Baseline</h4>
+          <div class="kpi-chips phys">
+            <span>Single Leg Balance</span><span>Standing Long Jump</span>
+            <span>10m Sprint</span><span>T-Test</span><span>Sit and Reach</span>
+          </div>
+        </div>
+        <div class="kpi-group">
+          <h4>فنيًا — Baseline</h4>
+          <div class="kpi-chips tech">
+            <span>تقييم الوقفات</span><span>جودة الـ Kihon</span><span>أداء الكاتا</span>
+            <span>التوازن</span><span>الـ Kime</span><span>الـ Metsuke</span>
+          </div>
+        </div>
+      </div>
+      <h4 style="margin-bottom:10px;">إعادة الاختبارات</h4>
+      <div class="weeks-row">
+        <span class="week-pill">الأسبوع 8</span>
+        <span class="week-pill">الأسبوع 16</span>
+        <span class="week-pill">الأسبوع 24</span>
+        <span class="week-pill">الأسبوع 30</span>
+      </div>
+    </section>
+
+    <!-- KPIs -->
+    <section class="alt" id="kpis">
+      <span class="eyebrow">KPIs</span>
+      <h2 class="title">مؤشرات الأداء</h2>
+      <div class="grid2">
+        <div class="kpi-group">
+          <h4>بدني</h4>
+          <div class="kpi-chips phys">
+            <span>زمن Sprint</span><span>مسافة Broad Jump</span><span>زمن Agility</span>
+            <span>مدة التوازن على قدم واحدة</span><span>مدى المرونة</span>
+          </div>
+        </div>
+        <div class="kpi-group">
+          <h4>فني</h4>
+          <div class="kpi-chips tech">
+            <span>ثبات الوقفات</span><span>جودة الانتقالات</span><span>الإيقاع</span>
+            <span>التوقيت</span><span>قوة الـ Kime</span><span>ثبات النظر (Metsuke)</span>
+            <span>تقليل الأخطاء الفنية</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SKILLS TABLE -->
+    <section id="skills-table">
+      <span class="eyebrow">Skill Roadmap</span>
+      <h2 class="title">المهارات الفنية المستهدفة حسب المرحلة</h2>
+      <div class="tblwrap">
+        <table>
+          <thead><tr><th>المرحلة</th><th>الوقفات</th><th>Kihon</th><th>Kata</th><th>المنافسة</th></tr></thead>
+          <tbody>
+            <tr><td>1</td><td>تعلم وإتقان الأساسيات</td><td>أساسيات اللكم والصد والركل</td><td>حفظ الكاتا الأولى وتحسين الجودة</td><td>لا يوجد تركيز كبير</td></tr>
+            <tr><td>2</td><td>تثبيت الوقفات والانتقالات</td><td>تحسين السرعة والدقة</td><td>تحسين الإيقاع والتوقيت</td><td>مسابقات داخلية بسيطة</td></tr>
+            <tr><td>3</td><td>وقفات قوية تحت السرعة</td><td>أداء سريع مع الحفاظ على الجودة</td><td>أداء تنافسي ومحاكاة الضغط</td><td>محاكاة كاملة</td></tr>
+            <tr><td>4</td><td>تثبيت الأداء</td><td>مراجعة وتصحيح</td><td>صقل التفاصيل الدقيقة</td><td>بطولات ومحاكاة رسمية</td></tr>
+            <tr><td>5</td><td>مراجعة</td><td>مراجعة</td><td>تقييم وتحليل</td><td>استشفاء</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <!-- PHILOSOPHY -->
+    <section class="alt" id="philosophy">
+      <span class="eyebrow">Session Philosophy</span>
+      <h2 class="title">فلسفة التدريب داخل الحصة</h2>
+      <p class="section-sub">دورة ثابتة في كل حصة لتوفير بيئة تعلم متوقعة للأطفال.</p>
+      <div class="flow">
+        <div class="flow-step"><b>Fun</b><span>لعبة أو نشاط يجذب الانتباه</span></div>
+        <div class="flow-step"><b>Learn</b><span>تعليم المهارة الجديدة أو تصحيحها</span></div>
+        <div class="flow-step"><b>Repeat</b><span>تكرارات متنوعة لترسيخ التعلم</span></div>
+        <div class="flow-step"><b>Challenge</b><span>منافسة فردية أو جماعية بسيطة</span></div>
+        <div class="flow-step"><b>Success</b><span>إنهاء الحصة بشعور إيجابي يعزز الدافعية</span></div>
+      </div>
+    </section>
+
+    <footer>
+      دفتر الموسم — التخطيط السنوي · WKF Kata · 5–9 سنوات
+    </footer>
+  </main>
+</div>
+
+
+
+
+<script src="js/main.js"></script>
+</body>
+</html>
